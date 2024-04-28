@@ -19,14 +19,14 @@
       "step": "installPlugin",
       "pluginZipFile": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/rhyswynne/wpdoom/master/wpdoom.zip"
+        "url": "https://raw.githubusercontent.com/rhyswynne/WP-Doom-Playground/master/wpdoom.zip"
       }
     },
     {
       "step": "importWxr",
       "file": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/rhyswynne/wpdoom/master/wpdoom.xml"
+        "url": "https://raw.githubusercontent.com/rhyswynne/WP-Doom-Playground/master/wpdoom.xml"
       }
     },
     {
