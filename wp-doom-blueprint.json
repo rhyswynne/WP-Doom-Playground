@@ -1,0 +1,42 @@
+{
+  "preferredVersions": {
+    "php": "8.0",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
+  "features": {},
+  "steps": [
+    null,
+    false,
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/rhyswynne/wpdoom/master/wpdoom.zip"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/rhyswynne/wpdoom/master/wpdoom.xml"
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "WP Doom - Playground",
+        "blogdescription": "A WordPress Playground instance that's knee deep in the dead"
+      }
+    },
+    null,
+    null
+  ]
+}
