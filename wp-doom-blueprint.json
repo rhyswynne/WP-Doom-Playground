@@ -1,4 +1,5 @@
 {
+  "landingPage": "/wp-doom/",
   "preferredVersions": {
     "php": "8.0",
     "wp": "latest"
@@ -33,8 +34,12 @@
       "step": "setSiteOptions",
       "options": {
         "blogname": "WP Doom - Playground",
-        "blogdescription": "A WordPress Playground instance that's knee deep in the dead"
+        "blogdescription": "WP Deep in the dead...."
       }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp rewrite structure '/%postname%/' --quiet"
     },
     null,
     null
