@@ -1,5 +1,5 @@
 {
-  "landingPage": "/wp-doom/#hurt-me-plenty",
+  "landingPage": "/?page_id=353#hurt-me-plenty",
   "preferredVersions": {
     "php": "8.0",
     "wp": "latest"
@@ -36,10 +36,6 @@
         "blogname": "WP Doom - Playground",
         "blogdescription": "WP Deep in the dead...."
       }
-    },
-    {
-      "step": "wp-cli",
-      "command": "wp rewrite structure '/%postname%/' --quiet"
     },
     null,
     null
